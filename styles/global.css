@@ -17,3 +17,12 @@
   --font-paragraph: 500 1rem/1.25rem var(--font-family);
   --font-link: 500 0.875rem/1rem var(--font-family);
 }
+
+html {
+  font: var(--font-paragraph);
+  color: var(--content-primary);
+}
+
+body {
+  background-color: var(--background-primary);
+}

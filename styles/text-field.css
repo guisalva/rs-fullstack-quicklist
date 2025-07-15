@@ -1,0 +1,19 @@
+.text-field {
+  background-color: var(--background-secondary);
+  border: 2px solid var(--border-primary);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.125rem;
+
+  font-weight: 400;
+}
+.text-field::placeholder {
+  color: var(--content-tertiary);
+}
+
+.text-field:hover {
+  border-color: var(--border-hover);
+}
+
+.text-field:focus {
+  border-color: var(--color-brand);
+}

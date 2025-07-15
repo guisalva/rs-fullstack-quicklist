@@ -19,3 +19,21 @@ ul,
 ol {
   list-style: none;
 }
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input {
+  border: none;
+  background: none;
+}
+input:focus {
+  outline: none;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
