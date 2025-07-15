@@ -14,13 +14,49 @@
     />
   </head>
   <body>
-    <main>
+    <main class="container">
+      <nav>
+        <img class="desktop-only" style="margin-bottom: 3.875rem" src="assets/logo.jpg" alt="logo" />
+
+        <div class="grid gap-md">
+          <a href="#"><- Voltar</a>
+
+          <h1>Compras da semana</h1>
+        </div>
+      </nav>
+
+      <form class="grid gap-md" style="margin-top: 2.75rem">
+        <input type="text" class="text-field" placeholder="Adicione um novo item" />
+        <button class="btn">Adicionar item</button>
+      </form>
+
+      <ul class="grid gap-sm" style="margin-top: 2.5rem">
+        <li>
+          <input type="checkbox" id="checkbox" class="checkbox" />
+          <label for="checkbox">Pão de forma</label>
+        </li>
+        <li>
+          <input type="checkbox" id="checkbox" class="checkbox" />
+          <label for="checkbox">Pão de forma</label>
+        </li>
+        <li>
+          <input type="checkbox" id="checkbox" class="checkbox" />
+          <label for="checkbox">Pão de forma</label>
+        </li>
+      </ul>
+
+      <div>
+        <span>O item foi removido da Lista</span>
+
+        <span>X</span>
+      </div>
+
       <!-- <button class="btn">Adicionar item</button> -->
 
       <!-- <input type="text" class="text-field" placeholder="Adicione um novo item" /> -->
 
-      <input type="checkbox" id="checkbox" class="checkbox" />
-      <label for="checkbox">Pão de forma</label>
+      <!-- <input type="checkbox" id="checkbox" class="checkbox" />
+      <label for="checkbox">Pão de forma</label> -->
     </main>
 
     <script src="scripts/index.js"></script>
