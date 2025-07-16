@@ -1,0 +1,23 @@
+.toast {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  translate: -50% 0;
+
+  width: max-content;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-danger);
+  color: var(--always-white);
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+}
+
+.toast span {
+  margin-right: auto;
+  font: var(--font-label);
+}
+
+.toast .close-icon {
+  cursor: pointer;
+}
