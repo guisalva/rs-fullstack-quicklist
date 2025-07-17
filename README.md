@@ -6,8 +6,8 @@ Este desafio prático foi realizado após o módulo de **Javascrip Básico** da 
 Preview do projeto desenvolvido:
 
 <div>
-  <img src="assets/screenshots/mobile-view.png" height="768">
-  <img src="assets/screenshots/desktop-view.png" height="1280">
+  <img src="assets/screenshots/mobile-view.png" height="680">
+  <img src="assets/screenshots/desktop-view.png" height="400">
 </div>
 
 
