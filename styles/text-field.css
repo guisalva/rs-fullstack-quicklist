@@ -1,5 +1,5 @@
 .text-field {
-  width: 100%;
+  flex-grow: 1;
   background-color: var(--background-secondary);
   border: 2px solid var(--border-primary);
   border-radius: 0.75rem;

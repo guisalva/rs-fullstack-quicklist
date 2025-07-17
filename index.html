@@ -15,8 +15,8 @@
   </head>
   <body>
     <main class="container">
-      <nav>
-        <img class="desktop-only" style="margin-bottom: 3.875rem" src="assets/logo.jpg" alt="logo" />
+      <nav class="navigation">
+        <img class="desktop-only" src="assets/logo.jpg" alt="logo" />
 
         <div class="grid gap-md">
           <a href="#"><- Voltar</a>
@@ -25,43 +25,36 @@
         </div>
       </nav>
 
-      <form class="grid gap-md" style="margin-top: 2.75rem">
-        <input type="text" class="text-field" placeholder="Adicione um novo item" />
-        <button class="btn">Adicionar item</button>
+      <form class="header gap-md">
+        <input type="text" id="item" class="text-field" name="item" placeholder="Adicione um novo item" />
+        <button type="submit" id="add-btn" class="btn">Adicionar item</button>
       </form>
 
-      <ul class="checklist gap-sm">
+      <ul id="checklist" class="checklist gap-sm">
         <li>
-          <input type="checkbox" id="teste1" class="checkbox" />
-          <label for="teste1">Pão de forma</label>
-          <img src="assets/icons/trash-bin.svg" alt="Ícone de lixeira" />
+          <input type="checkbox" id="Pão de forma" class="checkbox" />
+          <label for="Pão de forma">Pão de forma</label>
+          <img class="delete-icon" src="assets/icons/trash-bin.svg" alt="Ícone de lixeira" />
         </li>
         <li>
-          <input type="checkbox" id="teste2" class="checkbox" />
-          <label for="teste2">Bala</label>
-          <img src="assets/icons/trash-bin.svg" alt="Ícone de lixeira" />
+          <input type="checkbox" id="Bala" class="checkbox" />
+          <label for="Bala">Bala</label>
+          <img class="delete-icon" src="assets/icons/trash-bin.svg" alt="Ícone de lixeira" />
         </li>
         <li>
-          <input type="checkbox" id="teste3" class="checkbox" />
-          <label for="teste3">Bolacha</label>
-          <img src="assets/icons/trash-bin.svg" alt="Ícone de lixeira" />
+          <input type="checkbox" id="Bolacha" class="checkbox" />
+          <label for="Bolacha">Bolacha</label>
+          <img class="delete-icon" src="assets/icons/trash-bin.svg" alt="Ícone de lixeira" />
         </li>
       </ul>
 
-      <div class="toast gap-xs">
-        <img src="assets/icons/warning-circle.svg" alt="" />
+      <div class="toast gap-xs hidden">
+        <img src="assets/icons/warning-circle.svg" alt="Icone de aviso" />
 
         <span>O item foi removido da Lista</span>
 
-        <img class="close-icon" src="assets/icons/delete.svg" alt="" />
+        <img class="close-icon" src="assets/icons/delete.svg" alt="Icone de fechar" />
       </div>
-
-      <!-- <button class="btn">Adicionar item</button> -->
-
-      <!-- <input type="text" class="text-field" placeholder="Adicione um novo item" /> -->
-
-      <!-- <input type="checkbox" id="checkbox" class="checkbox" />
-      <label for="checkbox">Pão de forma</label> -->
     </main>
 
     <script src="scripts/index.js"></script>

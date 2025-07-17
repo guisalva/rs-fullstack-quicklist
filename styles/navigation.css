@@ -1,0 +1,11 @@
+.navigation img {
+  display: block;
+  margin-inline: auto;
+  margin-bottom: 3.875rem;
+}
+
+@media (width <= 768px) {
+  .navigation img {
+    display: none;
+  }
+}
