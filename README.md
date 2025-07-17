@@ -23,13 +23,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto
 
 ```bash
-  git clone https://github.com/guisalva/rs-fullstack-zingen.git
+  git clone https://github.com/guisalva/rs-fullstack-quicklist.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd rs-fullstack-zingen
+  cd rs-fullstack-quicklist
 ```
 
 
